@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aula7.linearlayout.MainActivity">
+
+    <!--
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:padding="10dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/ic_launcher_background"/>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_marginLeft="10dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Gabriel"
+                   android:textStyle="bold"
+                   android:textColor="@color/colorAccent"
+                   android:textSize="15sp"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="kdkksjjdkk"
+                   android:textSize="13sp"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Ingenieria de sistenmas"
+                   android:textSize="13sp"/>
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" android:orientation="vertical"
+               android:layout_marginLeft="20dp">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="hola"/>
+               <ImageView
+                   android:layout_width="35dp"
+                   android:layout_height="35dp"
+                   android:src="@drawable/ic_launcher_background"
+
+
+           </LinearLayout>
+       </LinearLayout>
+
+        </LinearLayout>
+ -->
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@mipmap/ic_launcher_round"/>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:layout_marginLeft="10dp">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Person Name"
+                   android:textColor="@android:color/white"
+                   android:textStyle="bold"
+                   android:background="@color/colorPrimary"
+                   android:layout_marginTop="10dp"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Title"
+                   android:textColor="@android:color/white"
+                   android:textStyle="bold"
+                   android:background="@color/colorPrimary"
+                   android:layout_marginTop="10dp"/>
+
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp"
+           android:background="@color/colorPrimary"
+           android:padding="10dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Phone"
+               android:textColor="@android:color/white"
+               android:textStyle="bold"
+               android:layout_weight="1"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@android:color/white"
+               android:text="123-333-3333"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp"
+           android:padding="10dp"
+           android:background="@color/colorPrimary">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Email"
+               android:textColor="@android:color/white"
+               android:textStyle="bold"
+               android:layout_weight="1"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@android:color/white"
+               android:text="a@a.com"
+               />
+
+
+
+       </LinearLayout>
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@android:color/holo_red_dark"
+           android:layout_marginTop="10dp"
+           android:text="Delete"
+           android:textColor="@android:color/white"/>
+
+   </LinearLayout>
+</android.support.constraint.ConstraintLayout>
